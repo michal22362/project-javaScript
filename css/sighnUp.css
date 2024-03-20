@@ -1,0 +1,113 @@
+@font-face {
+    font-family: Fb Practica;
+    src: url("../fonts/FbPractica-Regular.otf");
+}
+
+body{
+    direction: rtl;
+}
+
+nav{
+    background-color: white;
+}
+
+.account-header{
+    text-align: center;
+    min-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    border-bottom: none;
+    top: 60px;
+    z-index: 5;
+    margin-top: 90px;
+    padding: 0;
+    top: auto;
+    background: #343234;
+    color: #FFFFFF;
+    position: relative;
+    
+}
+
+.account-header>#h11{
+    font-size: 25px;
+    font-family: Fb Practica;
+}
+
+.account-header>h1{
+    font-size: 25px;
+}
+
+
+article>#p1{
+    margin-top: 20px;
+    font-family: Fb Practica;
+    font-size: 160%;
+    color: #a98900;
+    text-align: center;
+    font-weight: 400;
+}
+
+article>#p2{
+    text-align: center;
+    unicode-bidi: isolate;
+    color: #333333;
+    font-family: Fb Practica;
+    font-size: 130%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    max-width:117%;
+    max-height: 100%;
+}
+#container2{
+    margin-top: 70px;
+}
+#g>a{
+    text-decoration: none;
+    color: black;
+}
+#navDown{
+    z-index: 1;
+    position: fixed;
+    background-color: white;
+    max-width: 2000px;
+    height: 80px;
+    top: 0px;
+    box-shadow: 0 0 6px 6px rgb(145, 141, 141);
+    right: 0px;
+}
+
+nav>#navDown>ul>li>#logoImg>img{
+    width: 130px;
+    height: auto;
+}
+
+nav>#navDown>#ul2{
+    font-size: 140%;
+    font-family: Fb Practica;
+}
+
+
+nav>#navDown>ul>li>button{
+    border: none;
+    background: none;
+    font-size: medium;
+    margin-right: 50px;
+}
+
+nav>#navDown>ul>li>button>a>img{
+    width: 30px;
+    height: 30px;
+    margin-top: 7px;
+}
+a{
+    color: rgb(145, 141, 141);
+    text-decoration: none;
+}

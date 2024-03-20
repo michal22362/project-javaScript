@@ -1,0 +1,77 @@
+
+@font-face {
+    font-family: Fb Practica;
+    src: url("../fonts/FbPractica-Regular.otf");
+}
+body{
+    direction: rtl;
+    background: url('../assets/משלוח או איסוף מסניף/אצלכם או אצלנו כהה.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+#send{
+    font-family: Fb Practica;
+    margin-top: 100px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#send>h1{
+    color: white;
+    font-weight: 500;
+    font-size: 54px;
+}
+
+#send>h5{
+    color: white;
+    font-weight: 400;
+    margin-top: -15px;
+    font-size: 27px;
+}
+
+#Form{
+    margin-top: 55px;
+}
+
+form>input{
+    font-family: Fb Practica;
+    border: none;
+    background: #fff;
+    padding: 18px 10px;
+    height: auto;
+    line-height: 1;
+    border-radius: 3px;
+    font-size: 22px;
+    width: 42%;
+    color: #000000;
+}
+
+form>#submit{
+    font-family: Fb Practica;
+    padding: 18px 10px;
+    font-size: 25px;
+    font-weight: normal;
+    border: 2px solid #a98900;
+    text-align: center;
+    position: relative;
+    border-radius: 8px;
+    width: 42%;
+    margin: 0px auto 0;
+    background: #050505;
+    min-width: 200px;
+    color:white;
+    cursor: pointer;
+}
+
+#collection{
+    margin-top: 30px;
+}
+
+#collection>a{
+    font-weight: lighter;
+    font-family: Fb Practica;
+    color: #ffffff;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 18px;
+}

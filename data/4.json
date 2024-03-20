@@ -1,0 +1,65 @@
+[
+    {
+        "id" : 123,
+        "name":"מארזי מתנות",
+        "description" : "אירח מושלם",
+        "price" : 257,
+        "type" : "חלבי",
+        "Component" :"",
+        "image" :"אירוחמושלם.jpg"
+    },
+    {
+        "id" : 123456,
+        "name":"מארזי מתנות",
+        "description" : "הכל בשבילך",
+        "price" : 170,
+        "type" : "חלבי",
+        "Component" :"",
+        "image" :"הכל בשבילך.jpg"
+    },
+    {
+        "id" : 444,
+        "name":"מארזי מתנות",
+        "description" : "מארז יומולדת",
+        "price" : 36,
+        "type" : "",
+        "Component" :"",
+        "image" :"מארז יומולדת.jpg"
+    },
+    {
+        "id" : 111,
+        "name":"מארזי מתנות",
+        "description" : "מארז ספר ועוגת דבש",
+        "price" : 412,
+        "type" : "פרווה",
+        "Component" :"",
+        "image" :"מארז ספר ועוגת דבש.jpg"
+    },
+    {
+        "id" : 222222,
+        "name":"מארזי מתנות",
+        "description" : "מארז",
+        "price" : 99,
+        "type" : "פרווה",
+        "Component" :"",
+        "image" :"מארז.jpg"
+    },
+    {
+        "id" : 123654789,
+        "name":"מארזי מתנות",
+        "description" : "עוגיות פקאן מושלגות",
+        "price" : 112,
+        "type" : "פרווה",
+        "Component" :"",
+        "image" :"1.png"
+    },
+    {
+        "id" : 147,
+        "name":"מארזי מתנות",
+        "description" : "פינוקים ונהנים",
+        "price" : 112,
+        "type" : "פרווה",
+        "Component" :"",
+        "image" :"פינוקים ונהנים.jpg"
+    }    
+]

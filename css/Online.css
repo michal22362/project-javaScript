@@ -1,0 +1,70 @@
+@font-face {
+    font-family: Fb Practica;
+    src: url("../fonts/FbPractica-Regular.otf");
+}
+
+body{
+    direction: rtl;
+    background: url('../assets/משלוח או איסוף מסניף/אצלכם או אצלנו בהיר.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+#Logo{
+    max-width: 2000px;
+    height: 62px;
+    background-color: white;
+    box-shadow: 0 0 6px 6px rgb(145, 141, 141);
+}
+
+#logoRoladin{
+    margin-top: -56px;
+    width: 250px;
+    max-width: unset;
+}
+
+#send{
+    margin-top: 100px;
+    max-width: 90%;
+    font-family: Fb Practica;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#Shipping{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#send>h1{
+    color: white;
+    font-weight: 500;
+    font-size: 54px;
+    text-shadow: 2px 6px 8px rgba(0,0,0,.8);
+}
+
+#send>h6{
+    color: white;
+    font-weight: normal;
+    font-size: 30px;
+    text-shadow: 2px 6px 8px rgba(0,0,0,.8);
+}
+
+button{
+    max-width: 400px;
+    padding: 7px 30px;
+    font-size: 27px;
+    font-weight: normal;
+    border: 2px solid #a98900;
+    text-align: center;
+    border-radius: 8px;
+    width: 100%;
+    background-color: #050505;
+    box-shadow: 0px 4px 10px 0px rgba(0,0,0,.5);
+    cursor: pointer;
+}
+
+button>a{
+    text-decoration: none;
+    font-weight: lighter;
+    color: #ffffff;
+}

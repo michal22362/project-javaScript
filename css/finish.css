@@ -1,0 +1,49 @@
+
+
+@font-face {
+    font-family: Fb Practica;
+    src: url("../fonts/FbPractica-Regular.otf");
+}
+
+body {
+    direction: rtl;
+    background-color: #f8f7f7;
+    font-family : Fb Practica;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100%; */
+}
+
+.img {
+    position: absolute;
+    top: 25%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#container2 {
+    margin-top: 70px;
+}
+
+#data>img{
+    top: 35%;
+    position: absolute;
+    width: 15%;
+}
+
+#data>h3{
+    top: 25%;
+    position: absolute;
+    font-size: 50px;
+    color: #a98900;
+}
+
+#Timer>h1{
+    margin-top:25%;
+    color: #a98900;
+    font-size: 80px;
+}

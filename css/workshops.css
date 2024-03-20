@@ -1,0 +1,97 @@
+@font-face {
+    font-family: Fb Practica;
+    src: url("../fonts/FbPractica-Regular.otf");
+}
+
+body{
+    direction: rtl;  
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100%; */
+}
+.img{
+    max-width: 100%;
+    max-height: 100%;
+}
+#container2{
+    margin-top: 70px;
+}
+#navDown{
+    z-index: 1;
+    position: fixed;
+    background-color: white;
+    max-width: 2000px;
+    height: 80px;
+    top: 0px;
+    box-shadow: 0 0 6px 6px rgb(145, 141, 141);
+    right: 0px;
+}
+
+nav>#navDown>ul>li>#logoImg>img{
+    width: 130px;
+    height: auto;
+}
+
+nav>#navDown>#ul2{
+    font-size: 140%;
+    font-family: Fb Practica;
+}
+
+
+nav>#navDown>ul>li>button{
+    border: none;
+    background: none;
+    font-size: medium;
+    margin-right: 50px;
+}
+
+nav>#navDown>ul>li>button>a>img{
+    width: 30px;
+    height: 30px;
+    margin-top: 7px;
+}
+a{
+    color: rgb(145, 141, 141);
+    text-decoration: none;}
+
+    footer {
+        width: 600px;
+        height: 100px;
+        bottom: 0px;
+        background-color: hsl(0, 0%, 96%);
+        margin-top: 200px;
+        padding-bottom: 300px;
+        text-decoration: none;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+    }
+    
+    footer>ul{
+        margin-top: 200px;
+    }
+    
+    footer>ul>li>div>a{
+        flex-basis: 18.27%;
+        color: #89796e;
+        border-bottom: 1px solid #e8dbbb;
+        text-decoration: none;
+    }
+    
+    footer>ul>li>div{
+        flex-basis: 18.27%;
+        color: #89796e;
+    
+    }
+    
+    #disign{
+        margin-top: -70px; 
+    }
+    
+    .modal{
+        border-radius: none;
+        height: 5000px;
+    }

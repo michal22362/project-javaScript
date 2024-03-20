@@ -1,0 +1,167 @@
+@font-face {
+    font-family: Fb Practica;
+    src: url("../fonts/FbPractica-Regular.otf");
+}
+
+body{
+    direction: rtl;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav>#navUp {
+    z-index: 1;
+    position: absolute;
+    position: fixed;
+    background-color: #e2dede;
+    width: 34.6cm;
+    height: 55px;
+    top: 0px;
+}
+
+nav>#navUp>a {
+    color: #89796e;
+    font-family: Fb Practica;
+}
+
+nav>#navUp>ul>li>a,
+#Divider {
+    color: #89796e;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: Fb Practica;
+}
+
+#Divider {
+    margin-top: 5%;
+}
+
+#navDown {
+    z-index: 1;
+    position: absolute;
+    position: fixed;
+    background-color: white;
+    width: 34.6cm;
+    height: 73px;
+    top: 55px;
+}
+
+nav>#navDown>ul>li>#logoImg>img {
+    width: 110px;
+    height: auto;
+    margin-right: -20px;
+    margin-top: 12px;
+}
+
+nav>#navDown>#ul2 {
+    font-size: 20px;
+    font-family: Fb Practica;
+    margin-top: 1%;
+}
+
+nav>#navDown>#ul2>li>a,
+#line2 {
+    color: #89796e;
+}
+
+nav>#navUp>#myRoladin,
+p {
+    font-size: 17px;
+    color: #89796e;
+}
+
+nav>#navUp>p {
+    font-size: 17px;
+    color: #89796e;
+    margin-left: 955px;
+    margin-top: 0.8%;
+}
+
+nav>#navDown>ul>li>button {
+    border: none;
+    background: none;
+}
+
+nav>#navDown>ul>li>button>img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+
+#line2 {
+    margin-top: 0.6%;
+}
+.img{
+    max-width: 100%;
+    max-height: 100%;
+}
+#c{
+    text-align: center;
+    font-weight: bold;
+    color: #89796e;
+    margin-top: 20px;
+    font-size: large;
+}
+#line{
+    background-color: #dcc182;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 0.5px;
+    width: 650px;
+    margin-top: 40px;
+}
+#story{
+    text-align: center;
+    font-weight: normal;
+    margin-top: 20px;
+    font-size: medium;
+}
+#container2{
+    margin-top: 70px;
+}
+
+.arrow_down {
+    width: 13px;
+    height: 12px;
+    margin-right: -12px;
+    align-self: center;
+    margin-top: -0.2%;
+}
+
+footer {
+    width: 600px;
+    height: 100px;
+    bottom: 0px;
+    background-color: hsl(0, 0%, 96%);
+    margin-top: 200px;
+    padding-bottom: 300px;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+footer>ul{
+    margin-top: 200px;
+}
+
+footer>ul>li>div>a{
+    flex-basis: 18.27%;
+    color: #89796e;
+    border-bottom: 1px solid #e8dbbb;
+    text-decoration: none;
+}
+
+footer>ul>li>div{
+    flex-basis: 18.27%;
+    color: #89796e;
+}
+
+#disign{
+    margin-top: -70px; 
+}

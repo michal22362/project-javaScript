@@ -1,0 +1,206 @@
+@font-face {
+    font-family: Fb Practica;
+    src: url("../fonts/FbPractica-Regular.otf");
+}
+
+body {
+    direction: rtl;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav>#navUp {
+    z-index: 1;
+    position: absolute;
+    position: fixed;
+    background-color: #e2dede;
+    width: 34.6cm;
+    height: 55px;
+    top: 0px;
+}
+
+nav>#navUp>a {
+    color: #89796e;
+    font-family: Fb Practica;
+}
+
+nav>#navUp>ul>li>a,
+#Divider {
+    color: #89796e;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: Fb Practica;
+}
+
+#Divider {
+    margin-top: 5%;
+}
+
+#navDown {
+    z-index: 1;
+    position: absolute;
+    position: fixed;
+    background-color: white;
+    width: 34.6cm;
+    height: 73px;
+    top: 55px;
+}
+
+nav>#navDown>ul>li>#logoImg>img {
+    width: 110px;
+    height: auto;
+    margin-right: -20px;
+    margin-top: 12px;
+}
+
+nav>#navDown>#ul2 {
+    font-size: 20px;
+    font-family: Fb Practica;
+    margin-top: 1%;
+}
+
+nav>#navDown>#ul2>li>a,
+#line2 {
+    color: #89796e;
+}
+
+nav>#navUp>#myRoladin,
+p {
+    font-size: 17px;
+    color: #89796e;
+}
+
+nav>#navUp>p {
+    font-size: 17px;
+    color: #89796e;
+    margin-left: 955px;
+    margin-top: 0.8%;
+}
+
+nav>#navDown>ul>li>button {
+    border: none;
+    background: none;
+}
+
+nav>#navDown>ul>li>button>img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+
+#divCarousel {
+    margin-top: 110px;
+    left: 8px;
+    max-width: 1330px;
+    max-height: auto;
+}
+
+ol {
+    list-style: none;
+}
+
+.arrow_down {
+    width: 13px;
+    height: 12px;
+    margin-right: -12px;
+    align-self: center;
+    margin-top: -0.2%;
+}
+
+#line2 {
+    margin-top: 0.6%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Img_down>#row>#center>button>a>#img_D1 {
+    width: 615px;
+    height: 490px;
+    margin-top: -14px;
+    margin-left: 15px;
+}
+
+#Img_down>#row>#center>button>a>#img_D2 {
+    margin-top: 60px;
+}
+
+#Img_down>#row>#center>button>a>#img_D3 {
+    margin-top: -58px;
+    margin-left: 15px;
+    height: 562px;
+    width: auto;
+}
+
+#Img_down>#row>#center>button>a>#img_D4{
+    margin-top: 19px;
+    margin-left: 1px;
+}
+
+#Img_down>#row>#center>button{
+    border: none;
+    background: none;
+}
+
+#video>video {
+    margin-top: 80px;
+    width: 97.2%;
+    height: auto;
+}
+
+#ourStory {
+    margin-top: 80px;
+    max-width: 1283px;
+    max-height: auto;
+}
+
+#ourStory>button{
+    border: none;
+    background: none;
+}
+
+footer {
+    width: 600px;
+    height: 100px;
+    bottom: 0px;
+    background-color: hsl(0, 0%, 96%);
+    margin-top: 200px;
+    padding-bottom: 300px;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+footer>ul{
+    margin-top: 200px;
+}
+
+footer>ul>li>div>a{
+    flex-basis: 18.27%;
+    color: #89796e;
+    border-bottom: 1px solid #e8dbbb;
+    text-decoration: none;
+}
+
+footer>ul>li>div{
+    flex-basis: 18.27%;
+    color: #89796e;
+}
+
+#disign{
+    margin-top: -70px; 
+}
+
+.modal{
+    border-radius: none;
+    height: 5000px;
+}

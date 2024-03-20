@@ -1,0 +1,28 @@
+
+@font-face {
+    font-family: Fb Practica;
+    src: url("../fonts/FbPractica-Regular.otf");
+}
+body{
+    direction: rtl;
+}
+
+p{
+    font-family: Fb Practica;
+    font-size: 25px;
+    margin-left: 1100px;
+    margin-top: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container>button{
+    border: none;
+    background: none;
+}
+.container>button>a>#imgE{
+    width: 1350px;
+}
